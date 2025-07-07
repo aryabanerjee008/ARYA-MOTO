@@ -21,6 +21,28 @@ print("\n" * 2)
 text = pyfiglet.print_figlet(text = "GENERAL DYNAMICS", colors = "RED", width = 100)
 print("\n", "\a" * 2)
 
+# selection 
+
+def menu_box(text):
+    screen_width = 128  
+    RED = "\033[91m"
+    RESET = "\033[0m"
+
+    styled_text = ""  
+    for ch in text:
+        if ch in "12345":  
+            styled_text += RED + ch + RESET  
+        else:
+            styled_text += ch  
+    return styled_text  
+
+def main():
+    print(menu_box("[1]" + " BMW"))
+    print(menu_box("[2]" + " Add a vehicle"))
+    print(menu_box("[3]" + " Log Service Visit "))
+    print(menu_box("[4]" + " View All Services Records"))
+    print(menu_box("[5]" + " Exit"))
+
 
 """//                                   .:;it1i;:,,..
 //                                .:i1tfffLLLf1i;,,,.
