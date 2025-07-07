@@ -20,9 +20,18 @@ WHITE = "\033[97m"
 GREY = "\033[90m"
 RESET = "\033[0m"
 
-def style_line(text):
-    styled = ""
+        # ...existing code...
+    
     for ch in text:
+        if ch == "#":
+            styled += MAGENTA + ch
+        elif ch == "-":
+            styled += GREEN + ch
+        else:
+            styled += YELLOW + ch
+    styled += RESET
+    
+    # ...existing code...for ch in text:
         if ch == "#":
             styled += MAGENTA + ch
         elif ch == "-":
