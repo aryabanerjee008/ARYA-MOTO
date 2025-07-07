@@ -90,6 +90,7 @@ def main():
     elif opt == "5":
         print("\n")
         print("Exiting the program. Thank you for using ARYA-MOTO!")
+        print("\n")
         text = pyfiglet.print_figlet(text = "THANK  YOU", colors = "BLUE", width = 100)
 
     else:
