@@ -88,6 +88,7 @@ def main():
         import view_services
         view_services.main()
     elif opt == "5":
+        print("\n")
         print("Exiting the program. Thank you for using ARYA-MOTO!")
         text = pyfiglet.print_figlet(text = "THANK  YOU", colors = "BLUE", width = 100)
 
