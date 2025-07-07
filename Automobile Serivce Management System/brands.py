@@ -10,7 +10,7 @@ text = pyfiglet.print_figlet(text = "MERCEDIES", colors = "BLUE", width = 100)
 print("\n" * 2)
 text = pyfiglet.print_figlet(text = "TOYOTA", colors = "BLUE", width = 100)
 print("\n" * 2)
-text = pyfiglet.print_figlet(text = "BMW", colors = "BLUE", width = 100)
+text = pyfiglet.print_figlet(text = "VOLVO", colors = "BLUE", width = 100)
 
 
 
