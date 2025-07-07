@@ -5,6 +5,7 @@ BLUE = "\033[94m"
 MAGENTA = "\033[95m"
 CYAN = "\033[96m"
 WHITE = "\033[97m"
+GREY = "\033[90m"
 RESET = "\033[0m"
 
 def style_line(text):
@@ -33,6 +34,7 @@ def welcome_box():
     MAGENTA = "\033[95m"
     CYAN = "\033[96m"
     WHITE = "\033[97m"
+    GREY = "\033[90m"
     RESET = "\033[0m"
 
     # Color format for menu box
@@ -59,6 +61,7 @@ def menu_box(text):
     MAGENTA = "\033[95m"
     CYAN = "\033[96m"
     WHITE = "\033[97m"
+    GREY = "\033[90m"
     RESET = "\033[0m"
 
     for ch in text:
