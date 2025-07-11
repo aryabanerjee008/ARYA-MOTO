@@ -38,10 +38,43 @@ def menu_box(text):
 
 def main():
     print(menu_box("[1]" + " BMW"))
-    print(menu_box("[2]" + " Add a vehicle"))
-    print(menu_box("[3]" + " Log Service Visit "))
-    print(menu_box("[4]" + " View All Services Records"))
-    print(menu_box("[5]" + " Exit"))
+    print(menu_box("[2]" + " AUDI"))
+    print(menu_box("[3]" + " LOCKHEED MARTIN "))
+    print(menu_box("[4]" + " MERCEDIES"))
+    print(menu_box("[5]" + " TOYOTA"))
+    print(menu_box("[6]" + " VOLVO"))
+    print(menu_box("[7]" + " FORD"))
+    print(menu_box("[8]" + " NISSAN"))
+    print(menu_box("[9]" + " PORSCHE"))
+    print(menu_box("[10]" + " GENERAL DYNAMICS"))
+    print("\n" * 2)
+    print("Please select a brand by entering the corresponding number (1-10):")
+    print("\n" * 2)
+
+    opt = input(("Enter your choice: "))
+    if opt == "1":
+        print("You have chosen to register a customer.")
+        import register
+        register.main()
+    elif opt == "2":
+        print("You have chosen to add a vehicle.")
+        import add_vehicle
+        add_vehicle.main()
+    elif opt == "3":
+        print("You have chosen to log a service visit.")
+        import log_service
+        log_service.main()
+    elif opt == "4":
+        print("You have chosen to view all service records.")
+        import view_services
+        view_services.main()
+    elif opt == "5":
+        print("Exiting the program. Thank you for using ARYA-MOTO!")
+        text = pyfiglet.print_figlet(text = "THANK  YOU", colors = "BLUE", width = 100)
+
+    else:
+        print("Invalid option. Please try again.")
+        main()
 
 
 """//                                   .:;it1i;:,,..
