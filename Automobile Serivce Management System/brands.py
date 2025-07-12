@@ -53,21 +53,21 @@ def main():
 
     opt = input(("Enter your choice: "))
     if opt == "1":
-        print("You have chosen to register a customer.")
-        import register
-        register.main()
+        print("BMW .")
+        import add_vehicle
+        add_vehicle.main()
     elif opt == "2":
         print("You have chosen to add a vehicle.")
         import add_vehicle
         add_vehicle.main()
     elif opt == "3":
         print("You have chosen to log a service visit.")
-        import log_service
-        log_service.main()
+        import add_vehicle
+        add_vehicle.main()
     elif opt == "4":
-        print("You have chosen to view all service records.")
-        import view_services
-        view_services.main()
+        print("MERCEDIES Vehical service ")
+        import add_vehicle
+        add_vehicle.main()
     elif opt == "5":
         print("Exiting the program. Thank you for using ARYA-MOTO!")
         text = pyfiglet.print_figlet(text = "THANK  YOU", colors = "BLUE", width = 100)
