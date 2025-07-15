@@ -53,7 +53,7 @@ def main():
 
     opt = input(("Enter your choice: "))
     if opt == "1":
-        print("BMW .")
+        print("BMW.")
         import add_vehicle
         add_vehicle.main()
     elif opt == "2":
@@ -69,13 +69,33 @@ def main():
         import add_vehicle
         add_vehicle.main()
     elif opt == "5":
-        print("Exiting the program. Thank you for using ARYA-MOTO!")
-        text = pyfiglet.print_figlet(text = "THANK  YOU", colors = "BLUE", width = 100)
-
+        print("You have chosen TOYOTA vehicle service.")
+        import toyota
+        toyota.main()
+    elif opt == "6":
+        print("You have chosen VOLVO vehicle service.")
+        import volvo
+        volvo.main()
+    elif opt == "7":
+        print("You have chosen FORD vehicle service.")
+        import ford
+        ford.main()
+    elif opt == "8":
+        print("You have chosen NISSAN vehicle service.")
+        import nissan
+        nissan.main()
+    elif opt == "9":
+        print("You have chosen PORSCHE vehicle service.")
+        import porsche
+        porsche.main()
+    elif opt == "10":
+        print("You have chosen GENERAL DYNAMICS vehicle service.")
+        import gen_dyn
+        gen_dyn.main()
     else:
         print("Invalid option. Please try again.")
         main()
-
+main()
 
 """//                                   .:;it1i;:,,..
 //                                .:i1tfffLLLf1i;,,,.

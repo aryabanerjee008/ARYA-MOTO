@@ -63,19 +63,18 @@ def menu_box(text):
     return styled_text  
 
 def main():
-    print(menu_box("[1]" + " Register a customer"))
-    print(menu_box("[2]" + " Add a vehicle"))
-    print(menu_box("[3]" + " Log Service Visit "))
-    print(menu_box("[4]" + " View All Services Records"))
-    print(menu_box("[5]" + " Exit"))
+    print(menu_box("[1]" + " Add a vehicle"))
+    print(menu_box("[2]" + " Log Service Visit "))
+    print(menu_box("[3]" + " View All Services Records"))
+    print(menu_box("[4]" + " Exit"))
 
 
 
     opt = input(("Enter your choice: "))
     if opt == "1":
-        print("You have chosen to register a customer.")
-        import register
-        register.main()
+        print("You have chosen to Add a vehicle.")
+        import brands
+        brands.main()
     elif opt == "2":
         print("You have chosen to add a vehicle.")
         import add_vehicle

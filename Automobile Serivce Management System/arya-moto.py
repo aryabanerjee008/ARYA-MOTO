@@ -107,10 +107,9 @@ def menu_box(text):
 
 def main():
     print(menu_box("[1]" + " Register a customer"))
-    print(menu_box("[2]" + " Add a vehicle"))
-    print(menu_box("[3]" + " Log Service Visit "))
-    print(menu_box("[4]" + " View All Services Records"))
-    print(menu_box("[5]" + " Exit"))
+    print(menu_box("[2]" + " Log-in "))
+    print(menu_box("[3]" + " About Us"))
+    print(menu_box("[4]" + " Exit"))
 
 
 
@@ -120,21 +119,14 @@ def main():
         import register
         register.main()
     elif opt == "2":
-        print("You have chosen to add a vehicle.")
-        import add_vehicle
-        add_vehicle.main()
+        import login
+        login.main()
     elif opt == "3":
-        print("You have chosen to log a service visit.")
-        import log_service
-        log_service.main()
+        import about_us
+        about_us.main()
     elif opt == "4":
-        print("You have chosen to view all service records.")
-        import view_services
-        view_services.main()
-    elif opt == "5":
         print("Exiting the program. Thank you for using ARYA-MOTO!")
         text = pyfiglet.print_figlet(text = "THANK  YOU", colors = "BLUE", width = 100)
-
     else:
         print("Invalid option. Please try again.")
         main()
