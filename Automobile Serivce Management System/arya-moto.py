@@ -56,9 +56,9 @@ print("\n" * 2)
 import shutil
 
 def welcome_box():
-    screen_width = 128  # Your program's fixed width
+    screen_width = 128
 
-    box_width = 38  # Total width of the box (must match inner content length + padding + borders)
+    box_width = 38   (must match inner content length + padding + borders)
     left_padding = (screen_width - box_width) // 2
     
     #ASCII color codes
