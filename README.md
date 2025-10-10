@@ -6,19 +6,19 @@ It operates entirely from the terminal, making it lightweight, minimal, and perf
 
 ---
 
-## 🧰 Features
+##  Features
 
-- 📇 **Customer Registration**
-- 🚗 **Vehicle Information Logging**
-- 🛠️ **Service Entry Management**
-- 📖 **View Service History**
-- 💾 **Data Persistence with JSON**
-- 🎨 **Beautiful CLI UI with Colors + ASCII Art**
-- 💻 **Cross-platform (Linux & Windows)**
+-  **Customer Registration**
+-  **Vehicle Information Logging**
+-  **Service Entry Management**
+-  **View Service History**
+-  **Data Persistence with JSON**
+-  **Beautiful CLI UI with Colors + ASCII Art**
+-  **Cross-platform (Linux & Windows)**
 
 ---
 
-## 🖥️ Terminal Preview
+##  Terminal Preview
 
 ```bash
 ╔════════════════════════════════════╗
@@ -47,7 +47,7 @@ arya-moto/
 ├── brands.py                  # Branded pyfiglet banners
 ├── README.md
 
-🐍 Requirements
+ Requirements
 Python 3.7+
 
 pyfiglet package (optional, for ASCII banners)
@@ -56,11 +56,11 @@ bash
 Copy
 Edit
 
-🔐 Why Terminal-Based?
+ Why Terminal-Based?
 This project was designed as a no-GUI challenge.
 Where others might build a basic UI with Tkinter, ARYA-MOTO goes deeper, creating a full CLI experience with the feel of an elite black-ops dashboard.
 
-▶️ Run the Project
+ Run the Project
 python3 main.py
 
 This project is modular. If you'd like to contribute:
